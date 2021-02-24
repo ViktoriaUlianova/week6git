@@ -1,7 +1,7 @@
 .container {
     border: 1px solid pink;
     display: grid;
-    grid-template-columns: ;
+    /* grid-template-columns: ; */
     grid-template-rows: 1fr 1fr 1fr;
     padding-bottom: 0;
 }
