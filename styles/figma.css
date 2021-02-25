@@ -15,7 +15,7 @@ a:hover {
 
 .container {
     display: grid;
-    grid-template-rows: 105px 800px 1fr;
+    grid-template-rows: 105px 800px 1fr 1fr;
 }
 
 .header {
@@ -124,4 +124,47 @@ a:hover {
     grid-column: 2/3;
     grid-row: 1/5;
     width: 984px;
+}
+
+.form {
+    display: grid;
+    /* grid-template-columns: 400px; */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+
+
+}
+
+.sign {
+    margin: 1px;
+    padding: 1px;
+    justify-self: center;
+}
+
+.info {
+    display: grid;
+    grid-row: 2/4;
+    margin-top: 0;
+    justify-content: center;
+    padding: 30px 31px 14px 31px;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    background: #F46752;
+    /* width: 400px; */
+}
+
+.go {
+    display: grid;
+    background: white;
+    border-radius: 4px;
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 15px 5px 15px;
+    font-size: 16px;
+}
+
+.l1 {
+    margin: 20px;
 }
