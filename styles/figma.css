@@ -24,7 +24,7 @@ a:hover {
     grid-row: 1/2;
     margin-left: 106px;
     padding-top: 41px;
-    /* padding: 44px; */
+
 }
 
 .logo1 {
@@ -36,20 +36,19 @@ a:hover {
 
     grid-column: 2/3;
     grid-template-columns: 1fr 1fr;
-    /* justify-content: space-between; */
+
 }
 
 .nav1 {
     display: grid;
     grid-template-columns: 25% 15% 15%;
-    /* justify-content: space-between;
-    margin: auto; */
+
 }
 
 .link {
     display: grid;
     justify-content: end;
-    /* justify-content: space-around; */
+
     align-items: center;
     margin-left: 30px;
 }
@@ -128,7 +127,7 @@ a:hover {
 
 .form {
     display: grid;
-    /* grid-template-columns: 400px; */
+
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-content: center;
 
@@ -148,10 +147,9 @@ a:hover {
     justify-content: center;
     padding: 30px 31px 14px 31px;
     border: 1px solid rgba(29, 37, 60, 0.2);
-    /* box-sizing: border-box; */
     border-radius: 10px;
     background: #F46752;
-    /* width: 400px; */
+
 }
 
 #go {
@@ -176,34 +174,28 @@ footer {
     margin-left: 106px;
 }
 
-/* .logo2 {
-    display: grid;
-    padding-bottom: 0px;
-} */
+
 
 .footer1 {
     display: grid;
     grid-template-rows: 70px 200px 50px;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+
 }
 
 .textf {
     display: grid;
-    /* align-content: center; */
+
     width: 50%;
-    /* margin-top: 50px; */
+
 }
 
 .contacts {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* margin-top: 10px; */
+
 }
 
-/* .footer2 {
-    display: grid;
-    margin-top: 73px;
-} */
+
 
 .footer3 {
 
