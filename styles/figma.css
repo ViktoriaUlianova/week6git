@@ -163,10 +163,16 @@ a:hover {
     margin-bottom: 20px;
     padding: 5px 15px 5px 15px;
     font-size: 16px;
+    justify-content: center;
 }
 
 .l1 {
+    display: grid;
     margin: 20px;
+}
+
+li {
+    list-style-type: none;
 }
 
 footer {
